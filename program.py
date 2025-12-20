@@ -8,7 +8,7 @@ import google.generativeai as genai
 load_dotenv()
 API_KEY = os.getenv('GEMINI_API_KEY')
 
-base_path = "/Users/mi/Desktop/Projects/Gemini/data"
+base_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 files = os.listdir(base_path)
 
 
@@ -67,7 +67,10 @@ def compare_products(specs_list: list):
     
     # Header
     products = [s.get('product_name', 'Unknown') for s in specs_list]
-    print(f"{'Specification':<20} {products[0]:<20} {products[1]:<20} {products[2]:<20}")
+    header = f"{'Specification':<20}"
+    for product in products:
+        header += f" {product:<20}"
+    print(header)
     print("-"*80)
     
     # Rows
@@ -138,7 +141,7 @@ def main():
     results = []
     print(files)
     for spec_file in files:
-        spec_file = str("{}/{}".format(base_path, spec_file))
+        spec_file = os.path.join(base_path, spec_file)
         print(spec_file)
         if os.path.exists(spec_file):
             specs = analyze_single_spec(spec_file)
