@@ -1,0 +1,29 @@
+[
+  {
+    "product_name": "Pavilion 15",
+    "processor": "Intel i7-13700H",
+    "ram": "16GB LPDDR5",
+    "storage": "512GB SSD",
+    "price": 1200,
+    "battery": "63Wh (12 hours)",
+    "weight": "4.69 lbs"
+  },
+  {
+    "product_name": "XPS 13 (Plus)",
+    "processor": "Intel Core i7-1360P",
+    "ram": "16GB LPDDR5",
+    "storage": "512GB SSD",
+    "price": 899,
+    "battery": "52Wh",
+    "weight": "2.79 lbs"
+  },
+  {
+    "product_name": "Lenovo ThinkPad E16",
+    "processor": "Intel Core i7-13700HX",
+    "ram": "16GB DDR5 SDRAM",
+    "storage": "512GB SSD M.2 NVMe PCIe Gen 4",
+    "price": 950,
+    "battery": "86Wh Rapid Charge (up to 14 hours)",
+    "weight": "1.99 kg"
+  }
+]
