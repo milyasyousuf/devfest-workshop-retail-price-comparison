@@ -1,6 +1,7 @@
 # Gemini AI Retail Price Comparison
 
-A Python script that uses Google's Gemini AI to analyze PDF product specifications and compare prices.
+A Python Program that uses Google's Gemini AI to analyze PDF product specifications and compare prices.
+
 
 ## Quick Start
 
@@ -41,3 +42,13 @@ A Python script that uses Google's Gemini AI to analyze PDF product specificatio
 - Price comparison tables
 - AI-powered best value analysis
 - JSON output for integration
+
+## Workshop Details
+
+**Workshop By**: Muhammad Ilyas (Lead, GYB Commerce)  
+**Event**: 10th DevFest Karachi  
+**Date**: 20th December 2025  
+**Venue**: NASTP Auditorium, Karachi  
+**Organized by**: GDG Kolachi
+
+*Hands-on workshop: Retail Product Price Comparison using Gemini Multimodal AI with PDF and Image processing.*
